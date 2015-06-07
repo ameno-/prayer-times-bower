@@ -2,7 +2,7 @@
   "name": "prayer-times-bower",
   "description": "A basic, framework independent, bower package",
   "main": "dist/prayer-times-basic.js",
-  "version": "0.0.0.1",
+  "version": "0.0.1",
   "ignore": [
         ".editorconfig",
         ".jshintrc",
