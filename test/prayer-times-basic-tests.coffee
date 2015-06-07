@@ -1,7 +1,7 @@
 chai = require 'chai'
 sinon = require 'sinon'
 
-{Prayertimes-basic} = require '../src/prayer-times-basic'
+{PrayertimesBasic} = require '../src/prayer-times-basic'
 
 chai.should()
 
