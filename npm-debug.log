@@ -1,0 +1,376 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator',
+1 verbose cli   'bower' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'generator', null ]
+5 verbose cache add name=undefined spec="generator" args=["generator",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'generator',
+6 verbose parsed url   path: 'generator',
+6 verbose parsed url   href: 'generator' }
+7 verbose cache add [ 'bower', null ]
+8 verbose cache add name=undefined spec="bower" args=["bower",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'bower',
+9 verbose parsed url   path: 'bower',
+9 verbose parsed url   href: 'bower' }
+10 silly lockFile 4468e5de-generator generator
+11 verbose lock generator /Users/ameno/.npm/4468e5de-generator.lock
+12 silly lockFile 206e3ce5-bower bower
+13 verbose lock bower /Users/ameno/.npm/206e3ce5-bower.lock
+14 silly lockFile 4468e5de-generator generator
+15 silly lockFile 4468e5de-generator generator
+16 silly lockFile 206e3ce5-bower bower
+17 silly lockFile 206e3ce5-bower bower
+18 verbose addNamed [ 'generator', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile bcd98115-generator generator@
+21 verbose lock generator@ /Users/ameno/.npm/bcd98115-generator.lock
+22 verbose addNamed [ 'bower', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 1240aab1-bower bower@
+25 verbose lock bower@ /Users/ameno/.npm/1240aab1-bower.lock
+26 silly addNameRange { name: 'generator', range: '*', hasData: false }
+27 silly addNameRange { name: 'bower', range: '*', hasData: false }
+28 verbose request where is /generator
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 7a5ceaf658bbd436
+31 verbose url raw /generator
+32 verbose url resolving [ 'https://registry.npmjs.org/', './generator' ]
+33 verbose url resolved https://registry.npmjs.org/generator
+34 verbose request where is https://registry.npmjs.org/generator
+35 info trying registry request attempt 1 at 21:36:24
+36 http GET https://registry.npmjs.org/generator
+37 verbose request where is /bower
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /bower
+40 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+41 verbose url resolved https://registry.npmjs.org/bower
+42 verbose request where is https://registry.npmjs.org/bower
+43 info trying registry request attempt 1 at 21:36:24
+44 verbose etag "5B3WAXPFHJ5UQN9KMAGH1JS1N"
+45 http GET https://registry.npmjs.org/bower
+46 http 200 https://registry.npmjs.org/generator
+47 silly registry.get cb [ 200,
+47 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+47 silly registry.get     etag: '"EKE04MQVH7U9MOS53PCCXC4T5"',
+47 silly registry.get     'content-type': 'application/json',
+47 silly registry.get     'cache-control': 'max-age=60',
+47 silly registry.get     'content-length': '15722',
+47 silly registry.get     'accept-ranges': 'bytes',
+47 silly registry.get     date: 'Sun, 07 Jun 2015 01:36:24 GMT',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     age: '0',
+47 silly registry.get     connection: 'keep-alive',
+47 silly registry.get     'x-served-by': 'cache-iad2136-IAD',
+47 silly registry.get     'x-cache': 'MISS',
+47 silly registry.get     'x-cache-hits': '0',
+47 silly registry.get     'x-timer': 'S1433640984.580680,VS0,VE22',
+47 silly registry.get     vary: 'Accept' } ]
+48 silly addNameRange number 2 { name: 'generator', range: '*', hasData: true }
+49 silly addNameRange versions [ 'generator',
+49 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '1.0.0', '1.0.1' ] ]
+50 verbose addNamed [ 'generator', '1.0.1' ]
+51 verbose addNamed [ '1.0.1', '1.0.1' ]
+52 silly lockFile 2b7299ba-generator-1-0-1 generator@1.0.1
+53 verbose lock generator@1.0.1 /Users/ameno/.npm/2b7299ba-generator-1-0-1.lock
+54 silly lockFile c17050bd-rg-generator-generator-1-0-1-tgz https://registry.npmjs.org/generator/-/generator-1.0.1.tgz
+55 verbose lock https://registry.npmjs.org/generator/-/generator-1.0.1.tgz /Users/ameno/.npm/c17050bd-rg-generator-generator-1-0-1-tgz.lock
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator/-/generator-1.0.1.tgz',
+56 verbose addRemoteTarball   '01fe5f576dab7a1ed51f5e19ef4362a2fe079567' ]
+57 info retry fetch attempt 1 at 21:36:24
+58 verbose fetch to= /var/folders/s8/2j5mq7_s7z92_d7ddptvg7j80000gn/T/npm-25462-Db5W8GYr/registry.npmjs.org/generator/-/generator-1.0.1.tgz
+59 http GET https://registry.npmjs.org/generator/-/generator-1.0.1.tgz
+60 http 200 https://registry.npmjs.org/bower
+61 silly registry.get cb [ 200,
+61 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+61 silly registry.get     etag: '"666U6M9B7GFHAZTPM76JCEUV6"',
+61 silly registry.get     'content-type': 'application/json',
+61 silly registry.get     'cache-control': 'max-age=60',
+61 silly registry.get     'content-length': '112229',
+61 silly registry.get     'accept-ranges': 'bytes',
+61 silly registry.get     date: 'Sun, 07 Jun 2015 01:36:24 GMT',
+61 silly registry.get     via: '1.1 varnish',
+61 silly registry.get     age: '42',
+61 silly registry.get     connection: 'keep-alive',
+61 silly registry.get     'x-served-by': 'cache-iad2127-IAD',
+61 silly registry.get     'x-cache': 'HIT',
+61 silly registry.get     'x-cache-hits': '1',
+61 silly registry.get     'x-timer': 'S1433640984.581368,VS0,VE0',
+61 silly registry.get     vary: 'Accept' } ]
+62 silly addNameRange number 2 { name: 'bower', range: '*', hasData: true }
+63 silly addNameRange versions [ 'bower',
+63 silly addNameRange   [ '0.1.0',
+63 silly addNameRange     '0.1.2',
+63 silly addNameRange     '0.1.3',
+63 silly addNameRange     '0.2.0',
+63 silly addNameRange     '0.3.0',
+63 silly addNameRange     '0.3.1',
+63 silly addNameRange     '0.3.2',
+63 silly addNameRange     '0.4.0',
+63 silly addNameRange     '0.5.0',
+63 silly addNameRange     '0.5.1',
+63 silly addNameRange     '0.6.0',
+63 silly addNameRange     '0.6.1',
+63 silly addNameRange     '0.6.2',
+63 silly addNameRange     '0.6.3',
+63 silly addNameRange     '0.6.4',
+63 silly addNameRange     '0.6.5',
+63 silly addNameRange     '0.6.6',
+63 silly addNameRange     '0.6.7',
+63 silly addNameRange     '0.6.8',
+63 silly addNameRange     '0.7.0',
+63 silly addNameRange     '0.7.1',
+63 silly addNameRange     '0.8.0',
+63 silly addNameRange     '0.8.1',
+63 silly addNameRange     '0.8.2',
+63 silly addNameRange     '0.8.3',
+63 silly addNameRange     '0.8.4',
+63 silly addNameRange     '0.8.5',
+63 silly addNameRange     '0.8.6',
+63 silly addNameRange     '0.9.0',
+63 silly addNameRange     '0.9.1',
+63 silly addNameRange     '0.9.2',
+63 silly addNameRange     '0.10.0',
+63 silly addNameRange     '1.0.0',
+63 silly addNameRange     '1.0.1',
+63 silly addNameRange     '1.0.2',
+63 silly addNameRange     '1.0.3',
+63 silly addNameRange     '1.1.0',
+63 silly addNameRange     '1.1.1',
+63 silly addNameRange     '1.1.2',
+63 silly addNameRange     '1.2.0',
+63 silly addNameRange     '1.2.1',
+63 silly addNameRange     '1.2.2',
+63 silly addNameRange     '1.2.3',
+63 silly addNameRange     '1.2.4',
+63 silly addNameRange     '1.2.5',
+63 silly addNameRange     '1.2.6',
+63 silly addNameRange     '1.2.7',
+63 silly addNameRange     '1.2.8',
+63 silly addNameRange     '1.3.0',
+63 silly addNameRange     '1.3.1',
+63 silly addNameRange     '1.3.2',
+63 silly addNameRange     '1.3.3',
+63 silly addNameRange     '1.3.4',
+63 silly addNameRange     '1.3.5',
+63 silly addNameRange     '1.3.6',
+63 silly addNameRange     '1.3.7',
+63 silly addNameRange     '1.3.8',
+63 silly addNameRange     '1.3.9',
+63 silly addNameRange     '1.3.10',
+63 silly addNameRange     '1.3.11',
+63 silly addNameRange     '1.3.12',
+63 silly addNameRange     '1.4.0',
+63 silly addNameRange     '1.4.1' ] ]
+64 verbose addNamed [ 'bower', '1.4.1' ]
+65 verbose addNamed [ '1.4.1', '1.4.1' ]
+66 silly lockFile 185f46c0-bower-1-4-1 bower@1.4.1
+67 verbose lock bower@1.4.1 /Users/ameno/.npm/185f46c0-bower-1-4-1.lock
+68 silly lockFile 185f46c0-bower-1-4-1 bower@1.4.1
+69 silly lockFile 185f46c0-bower-1-4-1 bower@1.4.1
+70 silly lockFile 1240aab1-bower bower@
+71 silly lockFile 1240aab1-bower bower@
+72 http 200 https://registry.npmjs.org/generator/-/generator-1.0.1.tgz
+73 silly lockFile c17050bd-rg-generator-generator-1-0-1-tgz https://registry.npmjs.org/generator/-/generator-1.0.1.tgz
+74 silly lockFile c17050bd-rg-generator-generator-1-0-1-tgz https://registry.npmjs.org/generator/-/generator-1.0.1.tgz
+75 silly lockFile 2b7299ba-generator-1-0-1 generator@1.0.1
+76 silly lockFile 2b7299ba-generator-1-0-1 generator@1.0.1
+77 silly lockFile bcd98115-generator generator@
+78 silly lockFile bcd98115-generator generator@
+79 silly resolved [ { name: 'bower',
+79 silly resolved     version: '1.4.1',
+79 silly resolved     description: 'The browser package manager',
+79 silly resolved     author: { name: 'Twitter' },
+79 silly resolved     licenses: [ [Object] ],
+79 silly resolved     repository: { type: 'git', url: 'https://github.com/bower/bower' },
+79 silly resolved     main: 'lib',
+79 silly resolved     homepage: 'http://bower.io',
+79 silly resolved     engines: { node: '>=0.10.0' },
+79 silly resolved     dependencies:
+79 silly resolved      { abbrev: '^1.0.5',
+79 silly resolved        archy: '1.0.0',
+79 silly resolved        'bower-config': '^0.6.1',
+79 silly resolved        'bower-endpoint-parser': '^0.2.2',
+79 silly resolved        'bower-json': '^0.4.0',
+79 silly resolved        'bower-logger': '^0.2.2',
+79 silly resolved        'bower-registry-client': '^0.3.0',
+79 silly resolved        cardinal: '0.4.4',
+79 silly resolved        chalk: '^1.0.0',
+79 silly resolved        chmodr: '0.1.0',
+79 silly resolved        configstore: '^0.3.2',
+79 silly resolved        'decompress-zip': '^0.1.0',
+79 silly resolved        fstream: '^1.0.3',
+79 silly resolved        'fstream-ignore': '^1.0.2',
+79 silly resolved        github: '^0.2.3',
+79 silly resolved        glob: '^4.3.2',
+79 silly resolved        'graceful-fs': '^3.0.5',
+79 silly resolved        handlebars: '^2.0.0',
+79 silly resolved        inquirer: '0.8.0',
+79 silly resolved        insight: '^0.5.0',
+79 silly resolved        'is-root': '^1.0.0',
+79 silly resolved        junk: '^1.0.0',
+79 silly resolved        lockfile: '^1.0.0',
+79 silly resolved        'lru-cache': '^2.5.0',
+79 silly resolved        mkdirp: '0.5.0',
+79 silly resolved        mout: '^0.11.0',
+79 silly resolved        nopt: '^3.0.1',
+79 silly resolved        opn: '^1.0.1',
+79 silly resolved        'p-throttler': '0.1.1',
+79 silly resolved        promptly: '0.2.0',
+79 silly resolved        q: '^1.1.2',
+79 silly resolved        request: '2.53.0',
+79 silly resolved        'request-progress': '0.3.1',
+79 silly resolved        retry: '0.6.1',
+79 silly resolved        rimraf: '^2.2.8',
+79 silly resolved        semver: '^2.3.0',
+79 silly resolved        'shell-quote': '^1.4.2',
+79 silly resolved        'stringify-object': '^1.0.0',
+79 silly resolved        'tar-fs': '^1.4.1',
+79 silly resolved        tmp: '0.0.24',
+79 silly resolved        'update-notifier': '^0.3.0',
+79 silly resolved        'user-home': '^1.1.0',
+79 silly resolved        which: '^1.0.8' },
+79 silly resolved     devDependencies:
+79 silly resolved      { chai: '^1.10.0',
+79 silly resolved        coveralls: '^2.11.2',
+79 silly resolved        'expect.js': '^0.3.1',
+79 silly resolved        grunt: '^0.4.5',
+79 silly resolved        'grunt-cli': '^0.1.13',
+79 silly resolved        'grunt-contrib-jshint': '^0.10.0',
+79 silly resolved        'grunt-contrib-watch': '^0.6.1',
+79 silly resolved        'grunt-exec': '^0.4.6',
+79 silly resolved        'grunt-simple-mocha': '^0.4.0',
+79 silly resolved        istanbul: '^0.3.5',
+79 silly resolved        'load-grunt-tasks': '^2.0.0',
+79 silly resolved        mocha: '^2.1.0',
+79 silly resolved        multiline: '^1.0.2',
+79 silly resolved        nock: '^0.56.0',
+79 silly resolved        'node-uuid': '^1.4.2',
+79 silly resolved        proxyquire: '^1.3.0',
+79 silly resolved        'spawn-sync': '^1.0.5' },
+79 silly resolved     scripts: { test: 'grunt test' },
+79 silly resolved     bin: { bower: 'bin/bower' },
+79 silly resolved     preferGlobal: true,
+79 silly resolved     gitHead: 'a1287416d40f944d58cb8f2e774e2076bfffd32f',
+79 silly resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+79 silly resolved     _id: 'bower@1.4.1',
+79 silly resolved     _shasum: 'a18be39d030792754f30f1c5b32d37b0156ba8dd',
+79 silly resolved     _from: 'bower@',
+79 silly resolved     _npmVersion: '2.7.4',
+79 silly resolved     _nodeVersion: '0.12.0',
+79 silly resolved     _npmUser: { name: 'sheerun', email: 'sheerun@sher.pl' },
+79 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+79 silly resolved     dist:
+79 silly resolved      { shasum: 'a18be39d030792754f30f1c5b32d37b0156ba8dd',
+79 silly resolved        tarball: 'http://registry.npmjs.org/bower/-/bower-1.4.1.tgz' },
+79 silly resolved     directories: {},
+79 silly resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.4.1.tgz',
+79 silly resolved     readme: 'ERROR: No README data found!' },
+79 silly resolved   { author:
+79 silly resolved      { name: 'Andrew Sliwinski',
+79 silly resolved        email: 'andrewsliwinski@acm.org',
+79 silly resolved        url: 'http://andrewsliwinski.com' },
+79 silly resolved     name: 'generator',
+79 silly resolved     description: 'Project bootstrapping with an emphasis on simplicity.',
+79 silly resolved     keywords: [ 'template', 'scaffold', 'scaffolding', 'bootstrap', 'utility' ],
+79 silly resolved     version: '1.0.1',
+79 silly resolved     homepage: 'https://github.com/thisandagain/generator',
+79 silly resolved     license: 'MIT',
+79 silly resolved     repository:
+79 silly resolved      { type: 'git',
+79 silly resolved        url: 'https://github.com/thisandagain/generator.git' },
+79 silly resolved     preferGlobal: true,
+79 silly resolved     main: './lib/index.js',
+79 silly resolved     bin: { generator: './bin/index.js', generate: './bin/index.js' },
+79 silly resolved     scripts: { test: 'make test' },
+79 silly resolved     dependencies:
+79 silly resolved      { async: '~0.2.9',
+79 silly resolved        colors: '~0.6.2',
+79 silly resolved        findit: '~0.1.2',
+79 silly resolved        'fs-extra': '~0.6.3',
+79 silly resolved        prompt: '~0.2.11',
+79 silly resolved        optimist: '~0.6.0',
+79 silly resolved        replace: '~0.2.7' },
+79 silly resolved     devDependencies: { 'hint-hint': '~0.3.0', tap: '~0.4.4' },
+79 silly resolved     optionalDependencies: {},
+79 silly resolved     engines: { node: '>=0.8' },
+79 silly resolved     readme: '## Generator [![Build Status](https://secure.travis-ci.org/thisandagain/generator.png)](http://travis-ci.org/thisandagain/generator)\n#### Language agnostic project bootstrapping with an emphasis on simplicity.\n\n![Screenshot](https://raw.github.com/thisandagain/generator/master/interface.png)\n\n### Installation\n```bash\n[sudo] npm install -g generator\n```\n\nOnce installed, you should load the default templates:\n```bash\ngenerate --setup\n```\n\n### Usage\nIn order to bootstrap a project using one of the default templates you simply run `generate` and specifiy a template and project name. For example, let\'s create a new Node.js module called `kittycannon`:\n```bash\ngenerate --template npm --name kittycannon\n```\n\n---\n\n### Default Templates\nGenerator comes with a few templates to get you started. While they are usable as-is, the whole point of Generator is make the creation of custom templates as simple as possible.\n\n- `npm` [NPM](https://npmjs.org/) module template\n- `arduino` [Arduino](http://www.arduino.cc/) project template\n\n### How Templates Work\nTemplates are simply directories with any combination of files and sub-directories found within them. To create a new template simply create a new directory within your `~/.generator` path or copy one of the default templates and modify it. Upon use, Generator will walk the template looking for any instances of `__somelowercasevariable__` and prompt for a value. For example, a template including this:\n\n```javascript\n/**\n * __description__\n *\n * @package __name__\n * @author __author__ <__email__>\n */\n```\n\nWill prompt:\n```bash\ndescription: Rainbow catsplosion.\nauthor: Nyan Cat\nemail: kitty@meow.com\n```\n\nWhich will generate:\n```javascript\n/**\n * Rainbow catsplosion.\n *\n * @package myAwesomeProject\n * @author Nyan Cat <kitty@meow.com>\n */\n```\n\n---\n\n### Post Processing\nBy default, Generator will look for a `makefile` and (if found) will run `make generator` after all other template processing has been completed. This is particularly handy for dealing with template dependencies that may change over time (like git repositories or even [NPM](https://npmjs.org/) modules). For example:\n\n```bash\ngenerator:\n    npm install\n\n.PHONY: generator\n```\n\nOr... heck, let\'s go crazy nuts and automate setting up our git repo:\n\n```bash\ngenerator:\n    git init\n    git remote add origin https://github.com/__github__/__name__\n    npm install\n\n.PHONY: generator\n```\n\n---\n\n### Testing\n```bash\nnpm test\n```\n\n### Notes\n- C, C++, and PHP often use the `__SOMETHING__` pattern for [macros](http://gcc.gnu.org/onlinedocs/gcc-3.1/cpp/Standard-Predefined-Macros.html). For this reason, Generator will ignore any variable instances that are specified in caps. This works fine for C and C++ users, but given that such macros in PHP are case insensitive, PHP users should keep this limitation in mind while designing templates.\n- "Good coders code. Great reuse." quote shamelessly stolen from [Peteris Krumins\' blog](http://www.catonmat.net/) (which you should read).\n',
+79 silly resolved     readmeFilename: 'README.md',
+79 silly resolved     _id: 'generator@1.0.1',
+79 silly resolved     dist:
+79 silly resolved      { shasum: '01fe5f576dab7a1ed51f5e19ef4362a2fe079567',
+79 silly resolved        tarball: 'http://registry.npmjs.org/generator/-/generator-1.0.1.tgz' },
+79 silly resolved     _from: 'generator@',
+79 silly resolved     _npmVersion: '1.2.11',
+79 silly resolved     _npmUser: { name: 'diy', email: 'help@diy.org' },
+79 silly resolved     maintainers: [ [Object] ],
+79 silly resolved     directories: {},
+79 silly resolved     _shasum: '01fe5f576dab7a1ed51f5e19ef4362a2fe079567',
+79 silly resolved     _resolved: 'https://registry.npmjs.org/generator/-/generator-1.0.1.tgz' } ]
+80 info install bower@1.4.1 into /usr/local/lib
+81 info install generator@1.0.1 into /usr/local/lib
+82 info installOne bower@1.4.1
+83 info installOne generator@1.0.1
+84 verbose lib/node_modules/bower unbuild
+85 verbose lib/node_modules/generator unbuild
+86 verbose tar unpack /Users/ameno/.npm/generator/1.0.1/package.tgz
+87 silly lockFile 69f5c4f3-local-lib-node-modules-generator tar:///usr/local/lib/node_modules/generator
+88 verbose lock tar:///usr/local/lib/node_modules/generator /Users/ameno/.npm/69f5c4f3-local-lib-node-modules-generator.lock
+89 silly lockFile 78426775--npm-generator-1-0-1-package-tgz tar:///Users/ameno/.npm/generator/1.0.1/package.tgz
+90 verbose lock tar:///Users/ameno/.npm/generator/1.0.1/package.tgz /Users/ameno/.npm/78426775--npm-generator-1-0-1-package-tgz.lock
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 info preuninstall bower@1.4.1
+93 info uninstall bower@1.4.1
+94 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild bower@1.4.1
+95 verbose /usr/local/bin,[object Object] binRoot
+96 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator'
+96 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator']
+96 error   errno: 3,
+96 error   code: 'EACCES',
+96 error   path: '/usr/local/lib/node_modules/generator',
+96 error   fstream_type: 'Directory',
+96 error   fstream_path: '/usr/local/lib/node_modules/generator',
+96 error   fstream_class: 'DirWriter',
+96 error   fstream_stack:
+96 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+96 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+96 error      'Object.oncomplete (fs.js:107:15)' ] }
+97 error Please try running this command again as root/Administrator.
+98 error System Darwin 14.3.0
+99 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "generator" "bower"
+100 error cwd /Users/ameno/Desktop/prayer-times-bower
+101 error node -v v0.10.33
+102 error npm -v 1.4.28
+103 error path /usr/local/lib/node_modules/generator
+104 error fstream_path /usr/local/lib/node_modules/generator
+105 error fstream_type Directory
+106 error fstream_class DirWriter
+107 error code EACCES
+108 error errno 3
+109 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator'
+110 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+110 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+110 error fstream_stack Object.oncomplete (fs.js:107:15)
+111 verbose exit [ 3, true ]
